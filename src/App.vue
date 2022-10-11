@@ -1,7 +1,8 @@
 <template> 
   <div>
-    <InputText />
-    <Button label=""></Button>
+    <InputText type="text" v-model="value" />
+
+    <ButtoN label="Danger" class="p-button-danger">Test</button>
   </div>
 </template>
 
